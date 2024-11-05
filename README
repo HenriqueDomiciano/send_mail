@@ -1,0 +1,19 @@
+### Usage 
+
+Install all needed files with 
+
+```python
+
+pip3 install -r requirements.txt
+
+```
+
+later run python3 send_mail.py --config 
+
+Here you are going to configure the SMTP, host(mail), password, and port you are going to send the email via cli. 
+
+On gmail just use a app password it will work fine
+
+to run just use python3 send_mail.py -m "Hello"
+
+you can send attachments, change subject etc on the options. 
